@@ -1,0 +1,227 @@
+body {
+  /*.letter-background*/
+  padding: 20px;
+}
+body .letter-wrapper {
+  border: 1pt solid;
+  margin: auto;
+  overflow: hidden;
+  background-color: #fff;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+}
+body .letter-wrapper .topbox1 {
+  position: absolute;
+  height: 17mm;
+  width: 10%;
+  top: 15mm;
+  background-color: #FF1832;
+}
+body .letter-wrapper .topbox2 {
+  position: absolute;
+  height: 17mm;
+  width: 70%;
+  top: 15mm;
+  left: 40%;
+  background-color: #FF1832;
+}
+.bottombox1{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  background-color: #03112E;
+}
+.bottombox2{
+  position: absolute;
+  height: 60px;
+  width: 100px;
+  bottom: 0;
+  left: 20%;
+  background-color: #fff;
+  transform: skew(330deg);
+}
+.bottombox3{
+  position: absolute;
+  height: 60px;
+  width: 30px;
+  bottom: 0;
+  left: 25%;
+  background-color:#FF1832;
+  transform: skew(330deg);
+}
+.bottombox4{
+  position: absolute;
+  bottom: 0;
+  left: 620px;
+  height:220 ;
+  width:500;
+}
+.bottombox5{
+  position: absolute;
+  bottom: 0;
+  left: 620px;
+  height:220 ;
+  width:500;
+}
+.bottombox6{
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+  height:220 ;
+  width:540px;
+}
+body .letter-wrapper .letter-content {
+  /*header*/
+  /*letter-body*/
+  /*footer*/
+}
+body .letter-wrapper .letter-content header {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  width: 100%;
+  height: 40mm;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+  font-weight: bold;
+  position: absolute;
+  left: 20mm;
+  top: 80px;
+  padding-left: 30px;
+  padding-right: 40px;
+  height: 50px;
+  font-size: 25pt;
+  background-color: #fff;
+  color: #FF1832;
+}
+body .letter-wrapper .letter-content header .letter-org-details {
+  position: absolute;
+  left: 96mm;
+  top: 25mm;
+  width: 100%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+  position: absolute;
+  left: 15mm;
+  top: 40mm;
+  width: 50%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-date {
+  font-weight: bold;
+  position: absolute;
+  left: 165mm;
+  top: 40mm;
+  width: 30%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 0mm;
+  top: 40mm;
+  width: 100%;
+  height: 200mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+  position: absolute;
+  left: 15mm;
+  top: 15mm;
+  width: 70mm;
+  height: 35mm;
+  font-weight: bold;
+  font-size: 13pt;
+  margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  position: absolute;
+  left: 0mm;
+  top: 50mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 15pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  position: absolute;
+  left: 0mm;
+  top: 70mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 15pt;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  left: 0mm;
+  top: 80mm;
+  width: auto;
+  height: 115mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  font-size: 13pt;
+  text-indent: 15mm;
+  font-family: "Times New Roman", Times, serif;
+  overflow: auto;
+  text-align: justify;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 0mm;
+  top: 190mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign-img {
+  position: absolute;
+  left: 0mm;
+  top: 178mm;
+  width: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign-img img {
+ height: 10mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+  margin: 0mm;
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+
+.logoimg{
+  position: absolute;
+  height: 50%;
+  left: 25mm;
+  top: 13mm;
+}
+footer{
+  position: absolute;
+  left: -4mm;
+  top: 230mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+  font-weight: bold;
+}
+/*body*/
